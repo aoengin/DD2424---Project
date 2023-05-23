@@ -12,11 +12,11 @@ The program can simply be run with the following command:
 
 # Command-line arguments
 Additionally, the following arguments can be given to the program for various effects:
--t (small|medium|large) := Choose the size of the training dataset (Default large)
--b := Retrain batch normalization layers (Default True)
--d := Use data augmentation (Default True)
--n (1|2|3|4|5) := The number of stages retrained (Default 2)
--c (2|37) := The number of classes in the dataset (Default 2)
--e (number) := The number of epochs to train the model for (Default 15)
---sophisticated_data_augs (none|cutmix|mixup|erase) := Extra option for more sophisticated data augmentations (Default none)
---only_update_bn_params := Option to train by updating only the batch normalization parameters (Default False)
+* -t (small|medium|large) := Choose the size of the training dataset (Default large)
+* -b := Retrain batch normalization layers (Default True)
+* -d := Use data augmentation (Default True)
+* -n (1|2|3|4|5) := The number of stages retrained (Default 2)
+* -c (2|37) := The number of classes in the dataset (Default 2)
+* -e (number) := The number of epochs to train the model for (Default 15)
+* --sophisticated_data_augs (none|cutmix|mixup|erase) := Extra option for more sophisticated data augmentations (Default none)
+* --only_update_bn_params := Option to train by updating only the batch normalization parameters (Default False)
