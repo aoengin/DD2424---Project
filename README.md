@@ -4,7 +4,7 @@ This is the final version of the code used for the project assignment of course 
 # Setup
 For this program to run correctly, the uncompressed [Oxford IIIT Pet dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) must be present in the folder named *oxford-iiit-pet*. Then the command
 > python generate_datasets.py
-must be run to generate small, medium and large sized (with respect to the amount of training data) datasets. 
+must be run to generate small, medium and large sized (with respect to the amount of training data) datasets.  
 (Beware! This will take up ~5 GBs of space in your hard disk)
 
 # Executing the Program
